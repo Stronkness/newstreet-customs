@@ -1,0 +1,11 @@
+.header {
+    color: black;
+    font-family: 'VeganStyle';
+    font-size: 20px;
+    position: sticky;
+}
+
+@font-face {
+    font-family: "VeganStyle";
+    src: local("VeganStyle"), url("../font/VeganStyle.ttf") format("truetype");
+}

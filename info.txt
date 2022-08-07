@@ -1,2 +1,4 @@
 HEADER font : https://www.fontspace.com/vegan-style-font-f29878
 Apply font : https://dev.to/ziqinyeow/how-to-add-custom-font-file-to-your-react-app-31kb
+
+CSS coloring : https://www.w3schools.com/cssref/css_colors.asp
