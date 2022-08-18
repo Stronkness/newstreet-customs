@@ -1,8 +1,9 @@
 .header {
-    color: black;
+    color: white;
     font-family: 'VeganStyle';
     font-size: 20px;
     position: sticky;
+    letter-spacing: 6px;
 }
 
 @font-face {

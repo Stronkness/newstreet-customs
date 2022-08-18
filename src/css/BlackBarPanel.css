@@ -1,0 +1,15 @@
+.blackbarpanel {
+    background-color: darkslategray;
+    display: inline-block;
+    width: 19%;
+    position: fixed;
+    height: 100%;
+}
+
+.left-panel {
+    left: 0;
+}
+
+.right-panel {
+    right: 0;
+}
