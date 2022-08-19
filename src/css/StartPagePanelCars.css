@@ -1,0 +1,22 @@
+.paneltextalignment {
+    text-align: center;
+    font-size: large;
+}
+
+.topcar {
+    top: 5rem;
+    position: absolute;
+}
+
+.left {
+    left: 3rem;
+}
+
+.right {
+    right: 3rem;
+}
+
+.bottomcar {
+    bottom: 5rem;
+    position: absolute;
+}

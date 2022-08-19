@@ -12,3 +12,8 @@ html, body {
 .smallerfont {
     font-size: 17px;
 }
+
+.founder {
+    padding-top: 7rem;
+    font-size: larger;
+}
