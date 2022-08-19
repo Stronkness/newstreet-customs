@@ -1,9 +1,9 @@
 .blackbarpanel {
     background-color: darkslategray;
     display: inline-block;
-    width: 19%;
+    width: 18%;
     position: fixed;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .left-panel {

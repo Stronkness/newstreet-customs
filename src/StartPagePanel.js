@@ -3,7 +3,6 @@ import React from "react";
 import './css/StartPagePanel.css';
 
 function StartPagePanel(){
-
     return(
         <div>
             <div className="centerSpace">
@@ -12,7 +11,7 @@ function StartPagePanel(){
                     <br/>
                     Denna sida kommer att agera som en samling och dokumentation av byggstadiet och slutprodukten av fordonen.
                     <br/>
-                    Nedan eller i övre panelen finns det diverse sidor på byggen men även en sida om skaparen bakom Newstreet Customs.
+                    I sidopanelerna finns det diverse sidor på byggen. För att veta mer om skaparen bakom Newstreet Customs klicka på länken i mitten av sidan.
                 </h3>
             </div>        
         </div>
