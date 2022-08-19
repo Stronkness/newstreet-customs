@@ -15,12 +15,14 @@ import test3 from './saab-finished/PICT0549.JPG';
 
 /* 
 TODO:
-- Routing for the different car models
-- Black panels, images/links to the car models
-- Front page with routing
-- page about the auhor + contact page (MIDDLE OF THE FRONTPAGE, PIC OF CHRIS?)
-- panel för de olika modellerna + creator page
-- Team Nasty Tomelilla research
+    - Routing for the different car models
+    - Black panels, images/links to the car models
+    - Front page with routing
+    - page about the auhor + contact page (MIDDLE OF THE FRONTPAGE, PIC OF CHRIS?)
+    - panel för de olika modellerna + creator page
+    - Team Nasty Tomelilla research
+    - Make header as a "get home" button, add css shadowing
+    - Create "Go home" button when moving to another page e.g car or founder
 */
 
 function App() {
