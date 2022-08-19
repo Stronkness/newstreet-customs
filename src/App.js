@@ -3,6 +3,8 @@ import Header from "./Header";
 import StartPagePanel from "./StartPagePanel";
 import Footer from "./Footer";
 
+import Saab93 from "./Saab93";
+
 import './css/App.css';
 import './css/BlackBarPanel.css';
 
@@ -20,7 +22,7 @@ function App() {
     return (
         <div>
             <div className="blackbarpanel left-panel">
-
+                <Saab93/>
             </div>
             <div className="blackbarpanel right-panel">
 

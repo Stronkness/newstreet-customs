@@ -1,7 +1,7 @@
 .blackbarpanel {
     background-color: darkslategray;
     display: inline-block;
-    width: 18%;
+    width: 20%;
     position: fixed;
     height: 100vh;
 }
