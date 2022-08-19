@@ -3,7 +3,7 @@
     display: inline-block;
     width: 19%;
     position: fixed;
-    height: 100%;
+    min-height: 100vh;
 }
 
 .left-panel {
