@@ -1,6 +1,6 @@
 .header {
     color: white;
-    font-family: 'VeganStyle';
+    font-family: 'VeganStyle', 'Roboto', 'sans-serif';
     font-size: 25px;
     position: sticky;
     letter-spacing: 6px;

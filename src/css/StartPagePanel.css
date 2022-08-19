@@ -1,9 +1,14 @@
 html, body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 .centerSpace {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.smallerfont {
+    font-size: 17px;
 }

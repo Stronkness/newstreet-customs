@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import StartPagePanel from "./StartPagePanel";
 import Footer from "./Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Saab93 from "./Saab93";
 
@@ -20,7 +21,7 @@ TODO:
 
 function App() {
     return (
-        <div>
+        <BrowserRouter>
             <div className="blackbarpanel left-panel">
                 <Saab93/>
             </div>
@@ -30,7 +31,7 @@ function App() {
             <Header/>
             <StartPagePanel/>
             <Footer/>
-        </div>
+        </BrowserRouter>
     );
 }
 
