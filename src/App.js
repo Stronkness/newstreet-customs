@@ -10,8 +10,8 @@ import './css/StartPagePanelCars.css';
 
 import saab93 from './saab-finished/PICT0546.JPG';
 import test from './saab-finished/PICT0547.JPG';
-import test2 from './saab-finished/PICT0548.JPG';
-import test3 from './saab-finished/PICT0549.JPG';
+import test2 from './saab-finished/PICT0549.JPG';
+import test3 from './saab-finished/PICT0560.JPG';
 
 /* 
 TODO:
