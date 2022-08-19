@@ -11,7 +11,9 @@ function StartPagePanel(){
                     <br/>
                     Denna sida kommer att agera som en samling och dokumentation av byggstadiet och slutprodukten av fordonen.
                     <br/>
-                    I sidopanelerna finns det diverse sidor på byggen. För att veta mer om skaparen bakom Newstreet Customs klicka på länken i mitten av sidan.
+                    I sidopanelerna finns det diverse sidor på byggen. För att veta mer om skaparen bakom Newstreet Customs 
+                    <br/>
+                    klicka på länken i mitten av sidan.
                 </h3>
             </div>        
         </div>
