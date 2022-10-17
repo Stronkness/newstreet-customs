@@ -1,17 +1,27 @@
 # Newstreet Customs
 
-This project is a tribute to my father who couldn't have his website "Newstreet Customs" up. Instead of paying designers and expensive cost for hosting me myself are creating this for him and will attempt to host it later on during the project.
+This project is a tribute to my father who couldn't have his website "Newstreet Customs" up. Instead of paying designers and expensive cost for hosting me myself are creating this for him. The website is hosted on [www.newstreetcustoms.se](http://www.newstreetcustoms.se).
 
 ## Deployment
 
-In the project directory, you can run:
+The website is coded in `ReactJS` and uses `npm` for building and run the website. `npm` is included in the `Node.js` package.
+The versions when developing this website is in the following table 
 
-### `npm start`
+| Name | Version   |
+|------------|-----------|
+| ReactJS    | 18.2.0    |
+| npm        | 7.5.2     |
+| Node.js    | v12.22.12 |
 
-Runs the app in the development mode.\
+
+In the project directory, you can run the following to try out the website locally
+
+#### `npm start`
+
+It runs the website in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-DISCLAIMER: The current version works properly only in fullscreen mode. The objects and elements are not scaling as intended when resizing the window. Mobile application for the site has not been tested yet.
+DISCLAIMER: The current version works properly only in fullscreen mode. The objects and elements are not scaling as intended when resizing the window. Mobile application for the site has not been tested yet. Could be issues with laptops alsp. Currently only tested on 1920x1080 resolution screens.
 
 ## Maintainer
 
