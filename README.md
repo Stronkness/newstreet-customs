@@ -1,3 +1,5 @@
+# Hej Linus, om du ser detta innan julafton säg inget till Pappa, det är en julklapp jag jobbar på :)
+
 # Newstreet Customs
 
 This project is a tribute to my father who couldn't have his website "Newstreet Customs" up. Instead of paying designers and expensive cost for hosting me myself are creating this for him. The website is hosted on [www.newstreetcustoms.se](http://www.newstreetcustoms.se).
