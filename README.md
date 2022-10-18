@@ -23,7 +23,7 @@ In the project directory, you can run the following to try out the website local
 It runs the website in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-DISCLAIMER: The current version works properly only in fullscreen mode. The objects and elements are not scaling as intended when resizing the window. Mobile application for the site has not been tested yet. Could be issues with laptops alsp. Currently only tested on 1920x1080 resolution screens.
+DISCLAIMER: The current version works properly only in fullscreen mode on my laptop. The objects and elements are not scaling as intended when resizing the window. Mobile application for the site is really scuffed and compressed.
 
 ## Maintainer
 
