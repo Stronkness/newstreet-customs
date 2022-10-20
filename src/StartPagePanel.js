@@ -1,10 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
+import Confetti from 'react-confetti'
 
 import chris from './Images/Inside-Images/founder.JPG';
+import applause from './audience_applause.mp3'
 
 import './css/StartPagePanel.css';
 
+function wait(ms){
+    var start = new Date().getTime();
+    var end = start;
+    while(end < start + ms) {
+      end = new Date().getTime();
+   }
+ }
+
 function StartPagePanel(){
+    const [count, setCount] = useState(0);
+    const [endConfetti, setEndConfetti] = useState(false);
+    const audio = new Audio(applause);
+
+    if(count >= 5){
+        setCount(5);
+        audio.play();
+        console.log("innan wait")
+        wait(6000); // Await audio-clips length
+        console.log("efter wait")
+        setEndConfetti(true);
+        setCount(0);
+    }
+
     return(
         <div>
             <div className="centerSpace">
@@ -40,9 +64,16 @@ function StartPagePanel(){
                 <br/>
 
                 <div className="founder">
-                    <img src={chris} height={300} width={350}/>
+                    <img src={chris} height={300} width={350} onClick={() => setCount(count + 1)}/>
                 </div>
-            </div>        
+                {
+                    (count === 5 && !endConfetti) ?
+                    <Confetti recycle={true} numberOfPieces={300}/> :
+                    <></>
+                }
+            </div> 
+            {console.log(count)}  
+            {console.log(endConfetti)} 
         </div>
     );
 }
