@@ -1,6 +1,6 @@
 import React from "react";
 
-import chris from './saab-finished/PICT0548.JPG';
+import chris from './Images/Inside-Images/founder.JPG';
 
 import './css/StartPagePanel.css';
 
@@ -40,7 +40,7 @@ function StartPagePanel(){
                 <br/>
 
                 <div className="founder">
-                    <img src={chris} height={250} width={300}/>
+                    <img src={chris} height={300} width={350}/>
                 </div>
             </div>        
         </div>
