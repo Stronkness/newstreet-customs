@@ -1,9 +1,21 @@
 .header {
-    color: white;
-    font-family: 'VeganStyle', 'Roboto', 'sans-serif';
-    font-size: 25px;
     position: sticky;
-    letter-spacing: 6px;
+/*     width: 100%;
+    background-color: darkslategray */
+    border-left: 23.3rem solid darkslategray;
+    border-right: 23.3rem solid darkslategray;
+}
+
+.text {
+    font-family: 'VeganStyle', 'Roboto', 'sans-serif';
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 5px 5px 8px black;
+    color: white;
+}
+
+.text:hover {
+    color: lightgray
 }
 
 @font-face {

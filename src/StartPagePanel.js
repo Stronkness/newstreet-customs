@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import chris from './saab-finished/PICT0548.JPG';
 
@@ -14,18 +13,14 @@ function StartPagePanel(){
                     <br/>
                     Denna sida kommer att agera som en samling och dokumentation av byggstadiet och slutprodukten av fordonen.
                     <br/>
-                    I sidopanelerna finns det diverse sidor på byggen. För att veta mer om skaparen bakom Newstreet Customs 
+                    I sidopanelerna finns det diverse sidor på byggen och artiklar. För att veta mer om skaparen bakom  
                     <br/>
-                    klicka på länken i mitten av sidan.
+                    Newstreet Customs klicka på länken i mitten av sidan.
                 </h3>
                 <br/>
 
                 <div className="founder">
-                    <Link to="/chris">
-                        <img src={chris} height={250} width={250}/>
-                        <br/>
-                        Om Chris
-                    </Link>
+                    <img src={chris} height={250} width={300}/>
                 </div>
             </div>        
         </div>

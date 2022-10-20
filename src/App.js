@@ -1,76 +1,35 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
 import Header from "./Header";
-import StartPagePanel from "./StartPagePanel";
 import Footer from "./Footer";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import StartPagePanel from "./StartPagePanel";
+import StartPage from "./StartPage";
 
-import './css/App.css';
-import './css/BlackBarPanel.css';
-import './css/StartPagePanelCars.css';
-
-import saab93 from './saab-finished/PICT0546.JPG';
-import test from './saab-finished/PICT0547.JPG';
-import test2 from './saab-finished/PICT0549.JPG';
-import test3 from './saab-finished/PICT0560.JPG';
-
-/* 
-TODO:
-    - Routing for the different car models
-    - Black panels, images/links to the car models
-    - Front page with routing
-    - page about the auhor + contact page (MIDDLE OF THE FRONTPAGE, PIC OF CHRIS?)
-    - panel för de olika modellerna + creator page
-    - Team Nasty Tomelilla research
-    - Make header as a "get home" button, add css shadowing
-    - Create "Go home" button when moving to another page e.g car or founder
-*/
+import SaabLimousine from "./Saab-limousine";
+import Amator300Plus from "./Amator300plus";
+import Unknown from "./Unknown";
+import Articles from "./Articles";
 
 function App() {
     return (
-        <BrowserRouter>
-            <div className="blackbarpanel left-panel">
-                <div className="paneltextalignment topcar left">
-                    <Link to="/saab93-limousine">
-                        <img src={saab93} height={250} width={250}/>
-                        <br/>
-                        Saab 93 Limousine
-                    </Link>
-                </div>
+        <div>
+            <BrowserRouter>
+                <Header/>
+                <StartPage/>
+                <Routes>
+                    <Route path="/" element={<StartPagePanel/>}/>
+                    <Route path="saab93-limousine" element={<SaabLimousine/>}/>
+                    <Route path="amator-300-plus" element={<Amator300Plus/>}/>
+                    <Route path="unknown" element={<Unknown/>}/>
+                    <Route path="articles" element={<Articles/>}/>
 
-                <div className="paneltextalignment bottomcar left">
-                    <Link to="/test">
-                        <img src={test} height={250} width={250}/>
-                        <br/>
-                        Test
-                    </Link>  
-                </div>             
-            </div>
+                    <Route path="*" element={<Navigate to="/"/>}/>
+                </Routes>            
+            </BrowserRouter>
 
-            <div className="paneltextalignment blackbarpanel right-panel">
-                <div className="topcar right">
-                    <Link to="/test2">
-                        <img src={test2} height={250} width={250}/>
-                        <br/>
-                        Test2
-                    </Link> 
-                </div>
-
-                <div className="paneltextalignment bottomcar right">
-                <Link to="/test3">
-                        <img src={test3} height={250} width={250}/>
-                        <br/>
-                        Test3
-                    </Link> 
-                </div>
-            </div>
-            <Header/>
-            <StartPagePanel/>
             <Footer/>
-
-            {/* <Routes>
-                <Route exact path='/saab93-limousine' element={<Footer/>}/>
-            </Routes> */}
-        </BrowserRouter>
+        </div>
     );
 }
 

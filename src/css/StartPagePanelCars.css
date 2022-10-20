@@ -4,19 +4,19 @@
 }
 
 .topcar {
-    top: 5rem;
+    bottom: 37rem;
     position: absolute;
 }
 
 .left {
-    left: 3rem;
+    left: 2.25rem;
 }
 
 .right {
-    right: 3rem;
+    right: 2.25rem;
 }
 
 .bottomcar {
-    bottom: 5rem;
+    top: 27rem;
     position: absolute;
 }
