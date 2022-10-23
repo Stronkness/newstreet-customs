@@ -1,9 +1,7 @@
 .header {
     position: sticky;
-    width: 100%;
-    background-color: darkslategray
-/*     border-left: 23.3rem solid darkslategray;
-    border-right: 23.3rem solid darkslategray; */
+    border-left: 20vw solid darkslategray;
+    border-right: 20vw solid darkslategray;
 }
 
 .text {

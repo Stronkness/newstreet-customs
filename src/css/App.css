@@ -1,7 +1,9 @@
 html, body, #root {
     background-color: cadetblue;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
 }
 
 a {

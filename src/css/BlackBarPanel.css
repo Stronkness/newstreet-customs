@@ -2,14 +2,14 @@
     background-color: darkslategray;
     width: 20%;
     position: absolute;
-    height: 84.3%;
+    height: 90%;
     
 }
 
 .left-panel {
-    left: 0rem;
+    left: 0%;
 }
 
 .right-panel {
-    right: 0rem;
+    right: 0%;
 }
