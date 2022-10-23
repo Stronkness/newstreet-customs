@@ -20,13 +20,9 @@ function StartPagePanel(){
     const audio = new Audio(applause);
 
     if(count >= 5){
-        setCount(5);
         audio.play();
-        console.log("innan wait")
-        wait(6000); // Await audio-clips length
-        console.log("efter wait")
-        setEndConfetti(true);
-        setCount(0);
+        setTimeout(() => {setEndConfetti(true)}, 6000);
+        setTimeout(() => {setCount(0)}, 6000);
     }
 
     return(
@@ -68,12 +64,10 @@ function StartPagePanel(){
                 </div>
                 {
                     (count === 5 && !endConfetti) ?
-                    <Confetti recycle={true} numberOfPieces={300}/> :
+                    <Confetti recycle={true} numberOfPieces={500}/> :
                     <></>
                 }
             </div> 
-            {console.log(count)}  
-            {console.log(endConfetti)} 
         </div>
     );
 }
