@@ -65,7 +65,7 @@ function StartPagePanel(){
                 {
                     (count === 5 && !endConfetti) ?
                     <Confetti recycle={true} numberOfPieces={500}/> :
-                    <></>
+                    <Confetti recycle={false} numberOfPieces={0}/>
                 }
             </div> 
         </div>
