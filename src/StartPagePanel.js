@@ -22,7 +22,7 @@ function StartPagePanel(){
             <div className="centerSpace">
                 <h2>Välkommen till Newstreet Customs!</h2>
                 <h3 className="smallerfont">
-                    Här hittar du alla dokumenterade byggen som skapats av Chris Frisk från hans tidigare år när det byggdes bilar.
+                    Här hittar du alla dokumenterade byggen som skapats av Chris från hans tidigare år när det byggdes bilar.
                     <br/>
                     Denna sida kommer att agera som en samling och dokumentation av byggstadiet och slutprodukten av fordonen.
                     <br/>
