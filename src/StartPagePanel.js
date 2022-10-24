@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Confetti from 'react-confetti'
 
 import chris from './Images/Inside-Images/founder.JPG';
-import applause from './audience_applause.mp3'
+import applause from './sound/audience_applause.mp3';
 
 import './css/StartPagePanel.css';
 
