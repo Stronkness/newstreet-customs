@@ -6,14 +6,6 @@ import applause from './audience_applause.mp3'
 
 import './css/StartPagePanel.css';
 
-function wait(ms){
-    var start = new Date().getTime();
-    var end = start;
-    while(end < start + ms) {
-      end = new Date().getTime();
-   }
- }
-
 function StartPagePanel(){
     const [count, setCount] = useState(0);
     const [endConfetti, setEndConfetti] = useState(false);
