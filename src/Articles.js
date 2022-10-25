@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function Articles(){
     return(
         <div>
-            Tester articles
+            {/* To be written after X-Mas */}
         </div>
     );
 }
