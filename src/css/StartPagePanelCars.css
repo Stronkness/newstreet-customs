@@ -4,7 +4,7 @@
 }
 
 .topcar {
-    top: 0%;
+    top: 14%;
     position: absolute;
 }
 
@@ -17,6 +17,6 @@
 }
 
 .bottomcar {
-    bottom: 30%;
+    bottom: 14%;
     position: absolute;
 }

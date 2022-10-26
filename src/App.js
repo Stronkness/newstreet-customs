@@ -11,21 +11,25 @@ import Amator300Plus from "./Amator300plus";
 import Unknown from "./Unknown";
 import Articles from "./Articles";
 
+import './css/Center.css';
+
 function App() {
     return (
         <div>
             <BrowserRouter>
                 <Header/>
                 <StartPage/>
-                <Routes>
-                    <Route path="/" element={<StartPagePanel/>}/>
-                    <Route path="saab93-limousine" element={<SaabLimousine/>}/>
-                    <Route path="amator-300-plus" element={<Amator300Plus/>}/>
-                    <Route path="unknown" element={<Unknown/>}/>
-                    <Route path="articles" element={<Articles/>}/>
+                <div className="middle-padding">
+                    <Routes>
+                        <Route path="/" element={<StartPagePanel/>}/>
+                        <Route path="saab93-limousine" element={<SaabLimousine/>}/>
+                        <Route path="amator-300-plus" element={<Amator300Plus/>}/>
+                        <Route path="unknown" element={<Unknown/>}/>
+                        <Route path="articles" element={<Articles/>}/>
 
-                    <Route path="*" element={<Navigate to="/"/>}/>
-                </Routes>            
+                        <Route path="*" element={<Navigate to="/"/>}/>
+                    </Routes>            
+                </div>
             </BrowserRouter>
 
             <Footer/>
