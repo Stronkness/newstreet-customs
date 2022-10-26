@@ -47,7 +47,7 @@ function ImgViewer(props) {
             onClick={() => openImageViewer(index)}
             width="100"
             key={index}
-            style={{ margin: "2px" }}
+            style={{ margin: "0.5%" }}
             alt=""
           />
         ))}
@@ -58,7 +58,7 @@ function ImgViewer(props) {
           src={images}
           currentIndex={currentImage}
           onClose={closeImageViewer}
-          disableScroll={false}
+          disableScroll={true}
           backgroundStyle={{
             backgroundColor: "rgba(0,0,0,0.9)"
           }}
