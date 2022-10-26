@@ -10,8 +10,6 @@ import './css/Center.css';
 const unknown_images = images[3];
 
 function Unknown(){
-    // const exported_images = exportImages();
-
     return(
         <div>
             <div className="center">

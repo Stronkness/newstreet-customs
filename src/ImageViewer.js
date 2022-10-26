@@ -15,6 +15,12 @@ function exportImages(images, model){
         }else {
           png_string = "skiss_1.png"
         }
+
+      }else if(model === "amator"){
+        png_string = i + ".png"; 
+
+      }else{
+        console.log("im here")
       }
 
       list_images.push(images[png_string]);
@@ -31,7 +37,7 @@ function ImgViewer(props) {
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
     setIsViewerOpen(true);
-  }, []);
+  }, []); 
 
   const closeImageViewer = () => {
     setCurrentImage(0);
@@ -46,6 +52,7 @@ function ImgViewer(props) {
             src={src}
             onClick={() => openImageViewer(index)}
             width="100"
+            height="100"
             key={index}
             style={{ margin: "0.5%" }}
             alt=""
