@@ -1,7 +1,7 @@
 .blackbarpanel {
     background-color: darkslategray;
     width: 17%;
-    position: absolute;
+    position: fixed;
     height: 100%;
     
 }
