@@ -52,7 +52,7 @@ function StartPagePanel(){
                 <br/>
 
                 <div className="founder">
-                    <img src={chris} height={300} width={350} onClick={() => setCount(count + 1)}/>
+                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
                 </div>
                 {
                     (count === 5 && !endConfetti) ?

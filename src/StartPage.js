@@ -17,7 +17,7 @@ function StartPage(){
             <div className="blackbarpanel left-panel">
                 <div className="paneltextalignment topcar left">
                     <Link to="/saab93-limousine">
-                        <img src={saab93} height={250} width={350}/>
+                        <img src={saab93} width={300}/>
                         <br/>
                         Saab 93 Limousine
                     </Link>
@@ -25,7 +25,7 @@ function StartPage(){
 
                 <div className="paneltextalignment bottomcar left">
                     <Link to="/amator-300-plus">
-                        <img src={amator} height={250} width={350}/>
+                        <img src={amator} width={300}/>
                         <br/>
                         Amatör 300+
                     </Link>  
@@ -35,7 +35,7 @@ function StartPage(){
             <div className="paneltextalignment blackbarpanel right-panel">
                 <div className="topcar right">
                     <Link to="/unknown">
-                        <img src={unknown} height={250} width={350}/>
+                        <img src={unknown} width={300}/>
                         <br/>
                         Okänd bil
                     </Link> 
@@ -43,7 +43,7 @@ function StartPage(){
 
                 <div className="paneltextalignment bottomcar right">
                 <Link to="/articles">
-                        <img src={articles} height={250} width={350}/>
+                        <img src={articles} height={250} width={300}/>
                         <br/>
                         Artiklar
                     </Link> 
