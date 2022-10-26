@@ -1,0 +1,11 @@
+.grid {
+    padding-left: 25%;
+    width: 50%;
+    height: 100%;
+    /* grid-template-columns: repeat(4, 45px);
+    grid-template-rows: repeat(4, 45px);
+    grid-gap: 0.5em;
+    justify-content: center;
+    align-content: center; */
+}
+    

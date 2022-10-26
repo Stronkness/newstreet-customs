@@ -1,6 +1,8 @@
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
+import './css/ImageViewer.css';
+
 function exportImages(images, model){
   const list_images = [];
 
@@ -38,16 +40,18 @@ function ImgViewer(props) {
 
   return (
     <div>
-      {images.map((src, index) => (
-        <img
-          src={src}
-          onClick={() => openImageViewer(index)}
-          width="100"
-          key={index}
-          style={{ margin: "2px" }}
-          alt=""
-        />
-      ))}
+      <div className="grid">
+        {images.map((src, index) => (
+          <img
+            src={src}
+            onClick={() => openImageViewer(index)}
+            width="100"
+            key={index}
+            style={{ margin: "2px" }}
+            alt=""
+          />
+        ))}
+      </div>
 
       {isViewerOpen && (
         <ImageViewer
