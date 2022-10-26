@@ -11,10 +11,12 @@ function StartPagePanel(){
     const [endConfetti, setEndConfetti] = useState(false);
     const audio = new Audio(applause);
 
-    if(count >= 5){
+    if(count === 5){
         audio.play();
         setTimeout(() => {setEndConfetti(true)}, 6000);
         setTimeout(() => {setCount(0)}, 6000);
+    }else if(count > 5){
+        audio.stop();
     }
 
     return(
@@ -56,7 +58,7 @@ function StartPagePanel(){
                 </div>
                 {
                     (count === 5 && !endConfetti) ?
-                    <Confetti recycle={true} numberOfPieces={500}/> :
+                    <Confetti recycle={true} numberOfPieces={700}/> :
                     <Confetti recycle={false} numberOfPieces={0}/>
                 }
             </div> 

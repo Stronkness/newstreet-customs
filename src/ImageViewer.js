@@ -9,22 +9,21 @@ function exportImages(images, model){
   for(let i = 1; i < Object.keys(images).length + 1; i++) {
       let png_string;
       
-      if(model === "unknown"){
-        if(i !== 18){ // End of number iteration of .png images
-          png_string = i + ".png"; 
-        }else {
-          png_string = "skiss_1.png"
+      if(model === "saab"){
+        if(i > 44){ // Saab-finished
+          let iteration = i - 44;
+          png_string = "saab-finished/PICT" + iteration + ".JPG";
+        }else{
+          png_string = i + ".png";
         }
 
-      }else if(model === "amator"){
-        png_string = i + ".png"; 
-
       }else{
-        console.log("im here")
+        png_string = i + ".png"; 
       }
 
       list_images.push(images[png_string]);
   }
+
   return list_images;
 }
 

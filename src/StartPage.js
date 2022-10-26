@@ -6,7 +6,7 @@ import './css/BlackBarPanel.css';
 import './css/StartPagePanelCars.css';
 import './css/Center.css';
 
-import saab93 from './Images/Inside-Images/Saab/saab-finished/PICT0560.JPG';
+import saab93 from './Images/Inside-Images/Saab/saab-finished/PICT4.JPG';
 import amator from './Images/Inside-Images/Amator/36.png';
 import unknown from './Images/Inside-Images/Unknown/17.png';
 import articles from './Images/temporary.png';
