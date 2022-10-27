@@ -22,8 +22,8 @@ function StartPagePanel(){
     return(
         <div>
             <div className="centerSpace">
-                <h2>Välkommen till Newstreet Customs!</h2>
-                <h3 className="smallerfont">
+                <h1>Välkommen till Newstreet Customs!</h1>
+                <h2 className="smallerfont">
                     Här hittar du alla dokumenterade byggen som skapats av Chris från hans tidigare år när det byggdes bilar.
                     <br/>
                     Denna sida kommer att agera som en samling och dokumentation av byggstadiet och slutprodukten av fordonen.
@@ -48,20 +48,20 @@ function StartPagePanel(){
                     för billjud hos både äldre och unga. Idag ligger Team Nasty på is men intresset för bilar och billjud
                     <br/>
                     finns än idag bland de gamla medlemmarna.
-                </h3>
+                </h2>
                 <br/>
                 <br/>
                 <br/>
 
-                <div className="founder">
-                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
-                </div>
                 {
                     (count === 5 && !endConfetti) ?
                     <Confetti recycle={true} numberOfPieces={700}/> :
                     <Confetti recycle={false} numberOfPieces={0}/>
                 }
             </div> 
+            <div className="founder">
+                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
+            </div>
         </div>
     );
 }

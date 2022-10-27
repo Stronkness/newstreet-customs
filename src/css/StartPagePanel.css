@@ -6,9 +6,17 @@ html, body {
 .centerSpace {
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
+    padding-left: 22%;
+    
 }
 
 .smallerfont {
-    font-size: 100%;
+    font-size: 0.85vw;
+}
+
+.founder {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
