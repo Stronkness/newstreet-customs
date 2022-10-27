@@ -6,7 +6,7 @@ import './css/BlackBarPanel.css';
 import './css/StartPagePanelCars.css';
 import './css/Center.css';
 
-import saab93 from './Images/Inside-Images/Saab/saab-finished/PICT4.JPG';
+import saab99 from './Images/Inside-Images/Saab/saab-finished/PICT4.JPG';
 import amator from './Images/Inside-Images/Amator/36.png';
 import unknown from './Images/Inside-Images/Unknown/17.png';
 import articles from './Images/temporary.png';
@@ -17,9 +17,9 @@ function StartPage(){
             <div className="blackbarpanel left-panel">
                 <div className="paneltextalignment topcar left">
                     <Link to="/saab93-limousine">
-                        <img src={saab93} width={300}/>
+                        <img src={saab99} width={300}/>
                         <br/>
-                        Saab 93 Limousine
+                        Saab 99 Limousine
                     </Link>
                 </div>
 

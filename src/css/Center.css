@@ -17,3 +17,14 @@
 .middle-padding{
     padding-top: 6.9%;
 }
+
+.centered-text {
+    text-align: center;
+    font-size: 100%;
+}
+
+.saab {
+    text-align: left;
+    font-size: 100%;
+    padding-left: 22%;
+}

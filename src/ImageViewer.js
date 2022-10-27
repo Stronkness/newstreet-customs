@@ -59,6 +59,8 @@ function ImgViewer(props) {
         ))}
       </div>
 
+      <br/><br/>
+
       {isViewerOpen && (
         <ImageViewer
           src={images}

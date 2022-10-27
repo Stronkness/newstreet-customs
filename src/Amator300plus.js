@@ -16,6 +16,14 @@ function Amator300Plus(){
                 <img src={amator} height={450} alt={"Image not loaded ..."}/>
             </div>
             <br/>
+            <div className="centered-text">
+                <h4>
+                    Detta fordon var deltagande vid det Svenska Mästerskapen i billjud 1997 arrangerat av Swedish Auto Sound Challenge Association.
+                    <br/>
+                    Fordonet kom på en hederlig 8:e plats.
+                </h4>
+            </div>
+            <br/>
             <ImgViewer images={amator_images} model={"amator"}/>
         </div>
     );
