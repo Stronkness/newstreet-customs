@@ -6,6 +6,10 @@ html, body, #root {
     width: 100%;
 }
 
+/* * {
+    box-sizing: border-box;
+} */
+
 a {
     color: #FFF;
 }

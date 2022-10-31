@@ -6,7 +6,8 @@ import goose from './Images/goose.gif';
 function Articles(){
     return(
         <div>
-            <div className="center">
+            <br/>
+            <div className="center centered-text">
                 This section will be edited when the articles have been retrieved in the future.
                 Please enjoy this gif while you are here.
             </div>

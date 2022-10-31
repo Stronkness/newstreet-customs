@@ -1,6 +1,6 @@
 .paneltextalignment {
     text-align: center;
-    font-size: larger;
+    font-size: 1.25vw;
 }
 
 .topcar {
@@ -9,11 +9,11 @@
 }
 
 .left {
-    left: 4%;
+    left: auto;
 }
 
 .right {
-    right: 4%;
+    right: auto;
 }
 
 .bottomcar {

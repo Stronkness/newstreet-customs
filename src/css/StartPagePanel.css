@@ -1,6 +1,5 @@
 html, body {
     font-family: 'Roboto', sans-serif;
-    font-size: 100%;
 }
 
 .centerSpace {
@@ -11,11 +10,16 @@ html, body {
     
 }
 
+.biggerfont {
+    font-size: 1.75vw;
+}
+
 .smallerfont {
-    font-size: 0.85vw;
+    font-size: 1vw;
 }
 
 .founder {
+    object-fit: contain;
     align-items: center;
     justify-content: center;
     text-align: center;

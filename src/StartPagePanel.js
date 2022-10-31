@@ -16,13 +16,14 @@ function StartPagePanel(){
         setTimeout(() => {setEndConfetti(true)}, 6000);
         setTimeout(() => {setCount(0)}, 6000);
     }else if(count > 5){
-        audio.stop();
+        audio.pause();
+        audio.currentTime = 0;
     }
 
     return(
         <div>
             <div className="centerSpace">
-                <h1>Välkommen till Newstreet Customs!</h1>
+                <h1 className="biggerfont">Välkommen till Newstreet Customs!</h1>
                 <h2 className="smallerfont">
                     Här hittar du alla dokumenterade byggen som skapats av Chris från hans tidigare år när det byggdes bilar.
                     <br/>
@@ -60,7 +61,7 @@ function StartPagePanel(){
                 }
             </div> 
             <div className="founder">
-                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
+                    {/* <img src={chris} width={400} onClick={() => setCount(count + 1)}/> */}
             </div>
         </div>
     );
