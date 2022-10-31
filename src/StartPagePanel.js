@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Confetti from 'react-confetti'
 
-import chris from './Images/Inside-Images/founder.JPG';
 import applause from './sound/audience_applause.mp3';
 
 import './css/StartPagePanel.css';
@@ -18,6 +17,7 @@ function StartPagePanel(){
     }else if(count > 5){
         audio.pause();
         audio.currentTime = 0;
+        setTimeout(() => {setEndConfetti(false)}, 6000);
     }
 
     return(
@@ -40,13 +40,13 @@ function StartPagePanel(){
 
                     <br/>
                     <br/>
-                    Chris har även varit i ledningen för Team Nasty och har agerat som ledamot för gruppen.
+                    Chris har även varit i ledningen för <i onClick={() => setCount(count + 1)}>Team Nasty</i> och har agerat som ledamot för gruppen.
                     <br/>
-                    Team Nasty etablerade sig av ett kompisgäng i Österlen där de visade stort intrese för fräsiga åk och
+                    <i onClick={() => setCount(count + 1)}>Team Nasty</i> etablerade sig av ett kompisgäng i Österlen där de visade stort intrese för fräsiga åk och
                     <br/>
                     höga decibel på högtalarna. De anordnade tävlingar och uppvisningar på Österlen och lockade intresset
                     <br/>
-                    för billjud hos både äldre och unga. Idag ligger Team Nasty på is men intresset för bilar och billjud
+                    för billjud hos både äldre och unga. Idag ligger <i onClick={() => setCount(count + 1)}>Team Nasty</i> på is men intresset för bilar och billjud
                     <br/>
                     finns än idag bland de gamla medlemmarna.
                 </h2>
@@ -60,9 +60,9 @@ function StartPagePanel(){
                     <Confetti recycle={false} numberOfPieces={0}/>
                 }
             </div> 
-            <div className="founder">
-                    {/* <img src={chris} width={400} onClick={() => setCount(count + 1)}/> */}
-            </div>
+{/*             <div className="founder">
+                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
+            </div> */}
         </div>
     );
 }
