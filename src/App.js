@@ -16,7 +16,6 @@ import './css/Center.css';
 function App() {
     return (
         <div>
-            <meta name="viewport" content="width=device-width, initial-scale=0.9, minimum-scale=0.5, maximum-scale=3.0"></meta>
             <BrowserRouter>
                 <Header/>
                 <StartPage/>
