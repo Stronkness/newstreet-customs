@@ -60,9 +60,6 @@ function StartPagePanel(){
                     <Confetti recycle={false} numberOfPieces={0}/>
                 }
             </div> 
-{/*             <div className="founder">
-                    <img src={chris} width={400} onClick={() => setCount(count + 1)}/>
-            </div> */}
         </div>
     );
 }

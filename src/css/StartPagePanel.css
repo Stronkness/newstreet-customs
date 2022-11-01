@@ -1,13 +1,16 @@
 html, body {
     font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    height: 100%; 
+    overflow-y: hidden;
 }
 
 .centerSpace {
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding-left: 22%;
-    
+    padding-left: 24%;
+    overflow: hidden;
 }
 
 .biggerfont {
@@ -17,13 +20,6 @@ html, body {
 .smallerfont {
     font-size: 1vw;
 }
-
-/* .founder {
-    object-fit: contain;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
 
 .min-height {
     min-height: 1vh;
