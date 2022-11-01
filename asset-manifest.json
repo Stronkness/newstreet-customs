@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b88d07e7.css",
-    "main.js": "/static/js/main.95c0d2ea.js",
+    "main.css": "/static/css/main.69235c0d.css",
+    "main.js": "/static/js/main.b53bf636.js",
     "static/media/goose.gif": "/static/media/goose.eb144e0f061c27c42718.gif",
     "static/media/temporary.jpg": "/static/media/temporary.4de99d56b20809571636.jpg",
     "static/media/1.png": "/static/media/1.34794ebe97870cfd7758.png",
@@ -72,7 +72,6 @@
     "static/media/PICT4.JPG": "/static/media/PICT4.412042ec120cd4afbc08.JPG",
     "static/media/PICT9.JPG": "/static/media/PICT9.ea1f4e1893615a1a4714.JPG",
     "static/media/PICT15.JPG": "/static/media/PICT15.78c17eec99a67e1d1523.JPG",
-    "static/media/founder.JPG": "/static/media/founder.6cb8455221635ba736ed.JPG",
     "static/media/PICT19.JPG": "/static/media/PICT19.577639c7ba3d55e97752.JPG",
     "static/media/PICT32.JPG": "/static/media/PICT32.e8f763838336e5deff27.JPG",
     "static/media/PICT6.JPG": "/static/media/PICT6.a5f24588ef2e2bd59407.JPG",
@@ -88,11 +87,11 @@
     "static/media/audience_applause.mp3": "/static/media/audience_applause.6ef8995aed3d4c993d95.mp3",
     "static/media/43.png": "/static/media/43.ae1502d96284881adb7a.png",
     "index.html": "/index.html",
-    "main.b88d07e7.css.map": "/static/css/main.b88d07e7.css.map",
-    "main.95c0d2ea.js.map": "/static/js/main.95c0d2ea.js.map"
+    "main.69235c0d.css.map": "/static/css/main.69235c0d.css.map",
+    "main.b53bf636.js.map": "/static/js/main.b53bf636.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88d07e7.css",
-    "static/js/main.95c0d2ea.js"
+    "static/css/main.69235c0d.css",
+    "static/js/main.b53bf636.js"
   ]
 }
