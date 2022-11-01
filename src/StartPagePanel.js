@@ -21,7 +21,7 @@ function StartPagePanel(){
     }
 
     return(
-        <div>
+        <div className="no-scroll">
             <div className="centerSpace">
                 <h1 className="biggerfont min-height">Välkommen till Newstreet Customs!</h1>
                 <h2 className="smallerfont">

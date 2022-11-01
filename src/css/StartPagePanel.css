@@ -1,8 +1,5 @@
 html, body {
     font-family: 'Roboto', sans-serif;
-    margin: 0; 
-    height: 100%; 
-    overflow-y: hidden;
 }
 
 .centerSpace {
@@ -24,4 +21,10 @@ html, body {
 .min-height {
     min-height: 1vh;
     padding-top: 10%;
+}
+
+.no-scroll {
+    margin: 0; 
+    height: 100%; 
+    overflow-y: hidden;
 }
