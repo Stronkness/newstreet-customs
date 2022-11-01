@@ -1,5 +1,7 @@
 import React from "react";
+
 import './css/Center.css';
+import './css/Images.css';
 
 import goose from './Images/goose.gif';
 

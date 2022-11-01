@@ -23,7 +23,7 @@ function StartPagePanel(){
     return(
         <div>
             <div className="centerSpace">
-                <h1 className="biggerfont">Välkommen till Newstreet Customs!</h1>
+                <h1 className="biggerfont min-height">Välkommen till Newstreet Customs!</h1>
                 <h2 className="smallerfont">
                     Här hittar du alla dokumenterade byggen som skapats av Chris från hans tidigare år när det byggdes bilar.
                     <br/>

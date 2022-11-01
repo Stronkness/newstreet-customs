@@ -6,6 +6,7 @@ import images from './Images.js';
 import amator from './Images/Inside-Images/Amator/36.png';
 
 import './css/Center.css';
+import './css/Images.css';
 
 const amator_images = images[1];
 
@@ -13,7 +14,7 @@ function Amator300Plus(){
     return(
         <div>
             <div className="center">
-                <img src={amator} height={450} alt={"Image not loaded ..."}/>
+                <img className="amator-img" src={amator} alt={"Image not loaded ..."}/>
             </div>
             <br/>
             <div className="centered-text">

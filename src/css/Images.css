@@ -2,3 +2,23 @@
     width: 100%;
     height: auto;
 }
+
+.amator-img {
+    width: 40%;
+    height: auto;
+}
+
+.saab-img {
+    width: 40%;
+    height: auto; 
+}
+
+.unknown-img {
+    width: 35%;
+    height: auto;
+}
+
+.grid-imgs {
+    width: 4.5vw;
+    height: 9vh;
+}

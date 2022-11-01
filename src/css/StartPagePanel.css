@@ -24,3 +24,8 @@ html, body {
     justify-content: center;
     text-align: center;
 } */
+
+.min-height {
+    min-height: 1vh;
+    padding-top: 10%;
+}
